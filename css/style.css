@@ -15,3 +15,56 @@
     padding-top: 25%;
     opacity: .80;
   }
+  
+
+ 
+  @media(max-width: 768px){
+    .table a{
+      display: flex;
+      padding-bottom: 5px;
+      max-width: 40px;
+      margin-bottom: 4px;
+    }
+
+    .table img{
+      max-width: 100px;
+    }
+    
+    
+  }
+  @media(max-width: 660px){
+    .table img{
+      max-width: 60px;
+    }
+     .container{
+       justify-content: center;
+     }
+    .container h4{
+      font-size: 15px;
+    }
+     .container .alert{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+     }
+
+     
+     .container .table{
+      font-size: 10px;
+     }
+
+     #searchinput{
+       align-content: center;
+       font-size: 10px;
+     }
+
+     .container .novo i{
+      font-size: 10px;
+     }
+
+     .container .novo button{
+       font-size: 10px;
+     }
+  }
+  
