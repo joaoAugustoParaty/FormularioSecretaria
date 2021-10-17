@@ -16,23 +16,7 @@
     opacity: .80;
   }
   
-
- 
-  @media(max-width: 768px){
-    .table a{
-      display: flex;
-      padding-bottom: 5px;
-      max-width: 40px;
-      margin-bottom: 4px;
-    }
-
-    .table img{
-      max-width: 100px;
-    }
-    
-    
-  }
-  @media(max-width: 660px){
+  @media(max-width: 890px){
     .table img{
       max-width: 60px;
     }
@@ -68,3 +52,41 @@
      }
   }
   
+  @media(max-width: 768px){
+    .table a{
+      display: flex;
+      padding-bottom: 5px;
+      max-width: 40px;
+      margin-bottom: 4px;
+    }
+
+    .table img{
+      max-width: 100px;
+    }
+    
+    
+  }
+
+  @media(max-width: 470px){
+    .table a{
+      display: flex;
+      padding-bottom: 5px;
+      max-width: 40px;
+      margin-bottom: 4px;
+    }
+
+    .table img{
+      max-width: 60px;
+    }
+    
+    
+  }
+
+  @media(max-width: 450px){
+    .table a{
+      font-size: 10px;
+      padding-bottom: 5px;
+      max-width: 35px;
+      margin-bottom: 4px;
+    }
+  }
