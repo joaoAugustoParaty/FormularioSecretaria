@@ -15,10 +15,7 @@
     padding-top: 25%;
     opacity: .80;
   }
-  *{
-    margin: 0;
-    padding: 0;
-  }
+  
   @media(max-width: 890px){
     .table img{
       max-width: 60px;
