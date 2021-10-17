@@ -15,7 +15,10 @@
     padding-top: 25%;
     opacity: .80;
   }
-  
+  *{
+    margin: 0;
+    padding: 0;
+  }
   @media(max-width: 890px){
     .table img{
       max-width: 60px;
@@ -83,6 +86,10 @@
   }
 
   @media(max-width: 450px){
+
+    .container .table{
+      font-size: 8px;
+    }
     .table a{
       font-size: 10px;
       padding-bottom: 5px;
@@ -93,5 +100,9 @@
     .table{
       margin-right: 10px;
       padding-right: 10px;
+    }
+
+    #pagination{
+      font-size: 10px;
     }
   }
